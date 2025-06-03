@@ -2,7 +2,7 @@ import uuid
 import random
 
 def generate_sample_data_with_uuid(num_records):
-    if num_records > 1000:
+    if num_records > 200:
         raise ValueError("Too many records")
     data = []
     for _ in range(num_records):

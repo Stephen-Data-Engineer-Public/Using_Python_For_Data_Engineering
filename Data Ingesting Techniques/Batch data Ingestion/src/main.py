@@ -5,7 +5,7 @@ import time
 # Main Function
 def main():
     # Parameters
-    num_records = 100  # Total number of records to generate
+    num_records = 3000  # Total number of records to generate
     batch_size = 10    # Number of records per batch
 
     # Generate data
